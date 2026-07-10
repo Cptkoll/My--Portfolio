@@ -2,10 +2,9 @@ html {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color: rgb(245, 246, 252);}
 footer {color: rgb(1, 2, 65);}
 div {text-align: right; font-size: large;}
-button {color: rgb(1, 2, 65);border: none;
-    background-color: #c6c5fa;font-size: 17px;}
+button {border-radius: 50px;color:rgb(1, 2, 65);border: none;
+    background-color: #c6c5fa;font-size: 17px;padding: 20px 40px;}
 h1 {color: rgb(1, 2, 65); text-spacing-trim: 20px; font-size: 35px;}
 footer {font-size: 20px;}
 p {font-size: 20px;}
-a {text-decoration: none;border-radius: 50px; color: rgb(1, 2, 65);}
-a:hover {background-color: rgb(245, 246, 252);}
+a {text-decoration: none;border-radius: 50px; color: rgb(1, 2, 65);padding: 20px 40px;}
