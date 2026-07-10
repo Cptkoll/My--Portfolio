@@ -7,4 +7,5 @@ button {border-radius: 50px;color:rgb(1, 2, 65);border: none;
 h1 {color: rgb(1, 2, 65); text-spacing-trim: 20px; font-size: 35px;}
 footer {font-size: 20px;}
 p {font-size: 20px;}
-a {text-decoration: none;border-radius: 50px; color: rgb(1, 2, 65);padding: 20px 40px;}
+a {text-decoration: none;border-radius: 50px; color: rgb(1, 2, 65);}
+a:hover {background-color: #c6c5fa;padding: 20px 40px;}
