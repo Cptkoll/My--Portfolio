@@ -1,11 +1,26 @@
-html {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: rgb(245, 246, 252);}
-footer {color: rgb(1, 2, 65);}
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #f5f6fc;}
 div {text-align: right; font-size: large;}
 button {border-radius: 50px;color:rgb(1, 2, 65);border: none;
     background-color: #c6c5fa;font-size: 17px;padding: 20px 40px;}
-h1 {color: rgb(1, 2, 65); text-spacing-trim: 20px; font-size: 35px;}
-footer {font-size: 20px;}
+h1 {color: rgb(0, 0, 29); text-spacing-trim: 20px; font-size: 35px;}
 p {font-size: 20px;}
-a {text-decoration: none;border-radius: 50px; color: rgb(1, 2, 65);}
-a:hover {background-color: #c6c5fa;padding: 20px 40px;}
+a {text-decoration: none;border-radius: 50px; color: rgb(0, 0, 29);}
+a:hover {background-color: #c6c5fa; padding: 20px 40px;}
+.scrolling-bar {
+  width: 100%;
+  overflow: hidden;
+  background-color: #c6c5fa;
+  border-radius: 50px;
+  color: rgb(0, 0, 29);
+  font-size: 20px;
+}
+.scrolling-text {
+  white-space: nowrap;
+  animation: scroll-text 15s linear infinite;
+}
+@keyframes scroll-text {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
