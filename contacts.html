@@ -16,17 +16,78 @@
     <title>Contacts</title>
 </head>
 <body>
-    <h1>Contact Koll Miller Today!</h1>
-    <p>Here is Koll Miller's contact imformation below. Feel free to reach out today!</p>
-    <h3>Email</h3>
-    <p>kollmiller@gmail.com</p>
-    <p>koll.miller@outlook.com</p>
-    <h3>Phone</h3>
-    <p>329-228-5796</p>
-    <h3>Response Time</h3>
-    <p>24-48 hours</p>
-    <h3>Availibility</h3>
-    <p>Weekdays 5:00pm to 8:00pm</p>
-    <p>Weekends 8:00am to 8:00pm</p>
+
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .split-container {
+            display: flex;
+            width: 100%;
+            height: 100vh; 
+        }
+        .text-half {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px; 
+            background-color: #f5f6fc; 
+        }
+        .image-half {
+            flex: 1;
+        }
+        .image-half img {
+            width: 100%;
+            height: 90%;
+            object-fit: cover;
+            border: none;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .split-container {
+                flex-direction: column;
+                height: auto;
+            }
+            .image-half {
+                height: 50vh;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="split-container">
+
+        <div class="text-half" style ="text-align: center; padding: 100px;">
+             <h1 style="padding:15px">Contact Koll Miller Today!</h1>
+            <p style="padding:5px">Here is Koll Miller's contact imformation below. Feel free to reach out today!</p>
+            <h3 style="padding:10px">Email</h3>
+            <p style="padding:5px">kollmiller@gmail.com</p>
+            <p style="padding:5px">koll.miller@outlook.com</p>
+            <h3 style="padding:10px">Phone</h3>
+            <p style="padding:5px">329-228-5796</p>
+            <h3 style="padding:10px">Response Time</h3>
+            <p style="padding:5px">24-48 hours</p>
+            <h3 style="padding:10px">Availibility</h3>
+            <p style="padding:5px">Weekdays 5:00pm to 8:00pm</p>
+            <p style="padding:5px">Weekends 8:00am to 8:00pm</p>
+        </div>
+
+    
+        <div class="image-half">
+            <img src="./media/5300405.png" alt="Contact Image" height="25%">
+        </div>
+</div>
+<hr>
+<div class="scrolling-bar">
+    <div class="scrolling-text">
+        <p>Please feel free to contact me any time regarding information about my work, possible expiriences and more!</p>
+</div>
+</div>
 </body>
 </html>
